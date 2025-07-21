@@ -5,14 +5,14 @@
     host:"localhost",
     user:"postgres",
     password:"Rukundo1@",
-    database:"postgres"
+    database:"dvdrental"
  })
 
 
  client.connect();
 
 
-client.query('SELECT * FROM users', (err, res)=>{
+client.query('SELECT * FROM actor', (err, res)=>{
     if (!err) {
         console.log(res.rows);
         
