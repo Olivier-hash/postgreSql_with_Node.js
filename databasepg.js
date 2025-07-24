@@ -9,7 +9,7 @@
  })
 
 
- client.connect();
+client.connect();
 
 
 client.query('SELECT * FROM actor', (err, res)=>{
@@ -20,4 +20,5 @@ client.query('SELECT * FROM actor', (err, res)=>{
         console.log(err.message);
         
     }
+    client.end;
 })
