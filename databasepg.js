@@ -1,4 +1,4 @@
-// First attemps
+// First attemp
 
 
 const {Client} = require('pg')
