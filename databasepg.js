@@ -1,4 +1,4 @@
-// First attemp
+// First attem
 
 
 const {Client} = require('pg')
