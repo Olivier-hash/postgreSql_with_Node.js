@@ -49,7 +49,7 @@ client.query(updateQuery, updateValues, (err, res) => {
     }
 });
 
-// 4. Delete an actor xic
+// 4. Delete an actor xi
 const deleteQuery = "DELETE FROM actor WHERE actor_id=$1 RETURNING *";
 const deleteValue = [2]; // delete actor with ID 2
 client.query(deleteQuery, deleteValue, (err, res) => {
